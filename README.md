@@ -29,13 +29,3 @@ Com nosso buscador de treinos, encontrar o treino ideal para você é mais fáci
 **Contribuições são bem-vindas!** 😄
 
 **[Acesse o repositório para contribuir!](https://github.com/lucassilvaesmeraldino/busca-de-treinos)**
-
----
-
-**Observações:**
-
-* **Substitua `your-username` pelo seu nome de usuário no GitHub.**
-* **Ajuste o texto para que se adapte à sua linguagem e à proposta do seu projeto.**
-* **Adicione mais informações relevantes ao README, como instruções de uso ou tecnologias adicionais que você usou.**
-
-Espero que este README ajude você a promover seu projeto! 😊
