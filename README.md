@@ -8,6 +8,7 @@ Com nosso buscador de treinos, encontrar o treino ideal para você é mais fáci
 
 * **Nível de Dificuldade:** Iniciante, Intermediário ou Avançado.
 * **Foco do Treino:** Cardio, Pernas, Abdominais, Braços ou Geral.
+* * **Tempo Máximo:** Encontre treinos que caiba na sua rotina independente do tempo que você tiver.
 * **Nome do Treino:** Encontre treinos específicos que te interessam.
 
 **Sua jornada fitness, personalizada e sem complicações:**
