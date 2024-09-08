@@ -2,21 +2,7 @@ function findWorkoutResults() {
     event.preventDefault();
     let listResults = document.getElementById('divWorkoutResults');
     let htmlResults = '';
-    let workoutDataFiltered= workoutData.filter(workout => {
-        let workoutFocusFilter = document.getElementById('selectFocusWorkout').value;
-        if (workoutFocusFilter && workout.focus !== workoutFocusFilter) {
-            return false;
-        }
-        let workoutLevelFilter = document.getElementById('selectLevelWorkout').value;
-        if (workoutLevelFilter && workout.level !== workoutLevelFilter) {
-            return false;
-        }
-        let workoutTitleFilter = document.getElementById('inputNameWorkout').value.toUpperCase();
-        if (workoutTitleFilter && !workout.title.toUpperCase().includes(workoutTitleFilter)) {
-            return false;
-        }
-        return true;
-    });
+    let workoutDataFiltered= filterWorkoutResults();
     for (let workout of workoutDataFiltered) {
         htmlResults += `
             <div class="workouts">
@@ -33,6 +19,28 @@ function findWorkoutResults() {
         htmlResults += '<p class="noResults">Nenhum treino encontrado</p>';
     }
     listResults.innerHTML = htmlResults;
+}
+
+function filterWorkoutResults() {
+    return workoutData.filter(workout => {
+        let workoutFocusFilter = document.getElementById('selectFocusWorkout').value;
+        if (workoutFocusFilter && workout.focus !== workoutFocusFilter) {
+            return false;
+        }
+        let workoutLevelFilter = document.getElementById('selectLevelWorkout').value;
+        if (workoutLevelFilter && workout.level !== workoutLevelFilter) {
+            return false;
+        }
+        let workoutMaximumTimeFilter = document.getElementById('inputMaximumTime').value;
+        if (workoutMaximumTimeFilter && workout.time > workoutMaximumTimeFilter) {
+            return false;
+        }
+        let workoutTitleFilter = document.getElementById('inputNameWorkout').value.toUpperCase();
+        if (workoutTitleFilter && !workout.title.toUpperCase().includes(workoutTitleFilter)) {
+            return false;
+        }
+        return true;
+    });
 }
 
 function addOptionDefault(selectElement) {
