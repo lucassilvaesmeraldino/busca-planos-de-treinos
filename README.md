@@ -19,7 +19,7 @@ Com nosso buscador de treinos, encontrar o treino ideal para você é mais fáci
 
 **Comece a sua busca agora mesmo e prepare-se para resultados incríveis!** 
 
-**[Clique aqui para acessar o projeto](https://github.com/lucassilvaesmeraldino/busca-de-treinos)**
+**[Clique aqui para acessar o projeto](https://busca-planos-de-treinos-pvf9xn9bd.vercel.app)**
 
 ##  🚀 Construído com:
 
@@ -28,5 +28,3 @@ Com nosso buscador de treinos, encontrar o treino ideal para você é mais fáci
 * **JavaScript**: Para interação dinâmica com o usuário e busca de treinos.
 
 **Contribuições são bem-vindas!** 😄
-
-**[Acesse o repositório para contribuir!](https://github.com/lucassilvaesmeraldino/busca-de-treinos)**
